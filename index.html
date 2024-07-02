@@ -37,6 +37,25 @@
             box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
             transition-duration: 1s;
             } 
+
+            @media only screen and (max-width: 640px) {
+            img.btn-whatsapp {
+                display: block !important;
+                position: fixed;
+                z-index: 9999999;
+                bottom: 25px;
+                right: 100px;
+                cursor: pointer;
+                border-radius:100px !important;
+            }
+            img.btn-whatsapp:hover{
+                border-radius:100px !important;
+                -webkit-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1); 
+                -moz-box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+                box-shadow: 0px 0px 15px 0px rgba(7,94,84,1);
+                transition-duration: 1s;
+            }
+            }
         </style>
     </head>
     <body>
@@ -68,11 +87,11 @@
             <div class="nav-img-menu-wrapper">
                 <!-- navigation menu IMG start -->
                 <div class="nav-img-menu">
-                    <div class="nav-img active" data-bg="img/menu/nav-img-1.jpg" data-ref="nav-img-1"></div>
-                    <div class="nav-img" data-bg="img/menu/nav-img-2.jpg" data-ref="nav-img-2"></div>
-                    <div class="nav-img" data-bg="img/menu/nav-img-3.jpg" data-ref="nav-img-3"></div>
-                    <div class="nav-img" data-bg="img/menu/nav-img-4.jpg" data-ref="nav-img-4"></div>
-                    <div class="nav-img" data-bg="img/menu/nav-img-5.jpg" data-ref="nav-img-5"></div>
+                    <div class="nav-img active" data-bg="img/menu/lavoz/inicio.jpg" data-ref="nav-img-1"></div>
+                    <div class="nav-img" data-bg="img/menu/lavoz/acerca.jpg" data-ref="nav-img-2"></div>
+                    <div class="nav-img" data-bg="img/menu/lavoz/horarios.jpg" data-ref="nav-img-3"></div>
+                    <div class="nav-img" data-bg="img/menu/lavoz/testimonios.jpg" data-ref="nav-img-4"></div>
+                    <div class="nav-img" data-bg="img/menu/lavoz/contacto.jpg" data-ref="nav-img-5"></div>
                     <div class="nav-img" data-bg="img/menu/nav-img-6.jpg" data-ref="nav-img-6"></div>
                 </div><!-- navigation menu IMG end -->
                 <!-- center container start -->
@@ -86,19 +105,19 @@
                                     <a class="navigation-state scroll-page active" data-ref="nav-img-1" href="#home">Inicio</a>
                                 </li>
                                 <li>
-                                    <a class="navigation-state scroll-page" data-ref="nav-img-5" href="#news">Acerca de nosotros</a> 
+                                    <a class="navigation-state scroll-page" data-ref="nav-img-2" href="#news">Acerca de nosotros</a> 
                                 </li>
                                 <li>
-                                    <a class="navigation-state scroll-page" data-ref="nav-img-4" href="#works">Nuestros horarios</a>
+                                    <a class="navigation-state scroll-page" data-ref="nav-img-3" href="#works">Nuestros horarios</a>
                                 </li>
                                 <li>
-                                    <a class="navigation-state scroll-page" data-ref="nav-img-2" href="#about">Testimonios</a>
+                                    <a class="navigation-state scroll-page" data-ref="nav-img-4" href="#about">Testimonios</a>
                                 </li>
                                 <!-- <li> -->
                                     <!-- <a class="navigation-state scroll-page" data-ref="nav-img-3" href="#services">Services</a>
                                 </li>-->
                                 <li class="last">
-                                    <a class="navigation-state scroll-page" data-ref="nav-img-6" href="#contact">Contacto</a>
+                                    <a class="navigation-state scroll-page" data-ref="nav-img-5" href="#contact">Contacto</a>
                                 </li>
                             </ul>
                         </div><!-- navigation menu links end -->
